@@ -64,7 +64,7 @@ def brute_force( points : list ):
             if distance <= minn:
                lbl = [idx,ins]
                minn = distance
-             
+
     #print(lbl)
     return minn, points[lbl[0]], points[lbl[1]]
 
