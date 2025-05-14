@@ -14,7 +14,7 @@ def draw_fern( x : int , y : int , angle : float , height : int ):
     plt.plot(
         [ x , x + height*cos(rad) ], # Coordenadas x de la línea.
         [ y , y + height*sin(rad) ], # Coordenadas y de la línea.
-        'lg',
+        'g',
     )
 
     # Calcula las coordenadas del punto final del tallo/rama actual, que será el punto de inicio para las siguientes ramas

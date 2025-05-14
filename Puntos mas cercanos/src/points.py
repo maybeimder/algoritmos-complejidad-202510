@@ -93,7 +93,7 @@ def display( x_points : list, y_points : list , p1 : tuple, p2 : tuple, distance
 
 
 if __name__ == "__main__":
-    x, y = generate_points(150)
+    x, y = generate_points(2000)
     points = list(zip(x, y))
     dist, p1, p2 = get_nearest_points(points)
     print(f"Distancia: {dist}")
